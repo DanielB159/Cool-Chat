@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249278196279",
+    "project_id": "cool-chat-supreme",
+    "storage_bucket": "cool-chat-supreme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249278196279:android:7fc7dc07dcca4bed6d6db2",
+        "android_client_info": {
+          "package_name": "com.example.cool_chat_supreme.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249278196279-g3fsd1j8st42nuc711cji2iq0764r40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-B6XDuiLYPJja3aUIy9LgpxaT1otORj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249278196279-g3fsd1j8st42nuc711cji2iq0764r40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

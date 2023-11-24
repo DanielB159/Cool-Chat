@@ -1,0 +1,19 @@
+.input-group-append > .input-group-text {
+    height:100%;
+    border-left:0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: white;
+}
+
+#Password {
+    border-right: 0px;
+}
+#alreadyRegistered {
+    position: relative;
+    left: 0px;
+}
+#notValidMessage{
+    position: relative;
+    left: 0px; 
+}

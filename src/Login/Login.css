@@ -1,0 +1,16 @@
+#loginBox {
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    height: 60%;
+    padding: 1%;
+    min-height: 250px;
+    min-width: 450px;
+}
+#signUp {
+    position: relative;
+    left: 40%;
+    padding: 1%;
+}

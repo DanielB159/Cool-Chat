@@ -1,0 +1,19 @@
+#chatboxContainer{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    left: 19%;
+    top: 15%;
+    width: 65%;
+    height: 60%; 
+    min-width: 398px;
+    max-width: 1000px;
+    min-height: 428px;
+}
+
+.imageContainer {
+    display: flex;
+    padding:0%;
+    max-height: 100%;
+}

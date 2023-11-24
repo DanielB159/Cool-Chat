@@ -1,0 +1,62 @@
+.timeSent{
+    font-size: x-small;
+}
+
+
+p.sender {
+    position:relative;
+    align-self: flex-end;
+    background-color: #2586e6;
+    color: #fff;
+    padding: 5px;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    hyphens: auto;
+    word-break: break-all;
+}
+
+p.sender::before {
+    border-bottom-left-radius: 0.8rem 0.7rem;
+    border-right: 1rem solid #248bf5;
+    right: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+
+
+
+p.receiver {
+    position:relative;
+    align-self: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+    padding: 5px;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    hyphens: auto;
+    word-break: break-all;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid #248bf5;
+    position:absolute;
+    right: -8px;
+    top: 8px;
+}
+  
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #e5e5ea;
+    position: absolute;
+    left: -6px;
+    top: 7px; 
+}
+

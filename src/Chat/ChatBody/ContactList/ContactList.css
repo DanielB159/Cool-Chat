@@ -1,0 +1,43 @@
+#contacts {
+    background-color: aliceblue;
+    padding:0px;
+    overflow-y: scroll;
+    max-height: 371px;
+}
+
+
+#contacts .list-group li .rounded-pill {
+    position: relative;
+    left: 10px;
+}
+
+
+#contacts .list-group li:hover {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    background-color: lightgray !important;
+    cursor:pointer !important;
+}
+
+
+
+#contacts .list-group li {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+@media (max-width: 1200px) {
+    #contacts {
+        background-color: aliceblue;
+        padding:0px;
+        overflow-y: scroll;
+        max-height: 104px;
+    }
+}
+
+

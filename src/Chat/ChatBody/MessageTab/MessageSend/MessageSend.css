@@ -1,0 +1,32 @@
+#messageSend {
+    background-color: lightgray;
+    position:absolute;
+    width:100%;
+    height: 10.5%;;
+    bottom:0px;
+}
+
+#sendMessageBox {
+    width: 83%;
+}
+
+#basic-addon2 {
+    width: 17%;
+}
+
+#sendMessageBox:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+@media (max-width: 1200px) {
+    #messageSend {
+        background-color: lightgray;
+        position:absolute;
+        width:100%;
+        height: 38px;
+        bottom:0px;
+    }
+}
+
+
+

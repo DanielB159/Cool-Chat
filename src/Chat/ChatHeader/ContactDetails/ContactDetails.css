@@ -1,0 +1,12 @@
+
+.contactName {
+    text-align: left;
+    line-height: 316%;
+    font-family: cursive;
+}
+
+.contactStatus {
+    position: relative;
+    color: lightblue;
+    left: 2%;
+}

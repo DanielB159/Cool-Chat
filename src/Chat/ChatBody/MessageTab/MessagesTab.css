@@ -1,0 +1,11 @@
+#chat {
+    position: relative;
+    padding:0;
+    
+}
+
+#chat.col-sm-12 {
+    position: relative;
+    padding:0;
+    /* max-height: 265px; */
+}

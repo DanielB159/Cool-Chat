@@ -1,0 +1,35 @@
+
+#messagesList {
+    background: linear-gradient(to bottom, lightblue, orange);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 75%;
+    height: 89.5%;;
+    display: flex;
+    flex-direction: column;
+    font-family: "SanFrancisco";
+    min-width: 396px;
+    min-width: 100%;
+    max-height: 332px;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+/* use these settings on short screens  */
+@media (max-width: 1200px) {
+    #messagesList {
+        background: linear-gradient(to bottom, lightblue, orange);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        opacity: 75%;
+        height: 229px;
+        position: relative;
+        bottom: 19px;
+        display: flex;
+        flex-direction: column;
+        font-family: "SanFrancisco";
+        min-height: 229px;
+        min-width: 100%;
+        max-height: 267px;
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+}
