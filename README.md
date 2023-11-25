@@ -1,7 +1,3 @@
-# Advanced2NetaGalDaniel
-
-This is the project repository for our Advanced Programming 2 project.
-
 # Brief Explanation
 This project is an implementation of a web based chat service.
 We are able to communicate between clients both browser side and Android application side abck and forth between the same server.
